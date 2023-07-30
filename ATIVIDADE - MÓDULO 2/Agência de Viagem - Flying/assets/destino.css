@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*CABEÇALHO*/
+
+.navbar {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collapse a {
+    font-size: 1.3rem;
+    color: #d9a648;
+    cursor: pointer;
+    border-bottom: 5px solid #000;
+}
+
+.collapse a:hover {
+    border-bottom: 5px solid #d9a648;
+    color: white;
+
+}
+
+.container-fluid h2{
+    margin-left: 20px;
+    color: white;
+}
+
+/*CORPO*/
+
+
+.sect1 {
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect1 h2{
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.col img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    
+}
+
+
+.sect2 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: #d9a648;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.row img{
+    width: 100%;
+    height: 300px;
+}
+
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.sect2 h2{
+    font-size: 3rem;
+}
+
+.sect2 label{
+    font-size: 1.5rem;
+}
+
+
+form {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/*RODAPÉ*/
+
+footer {
+    margin-top: 100px;
+    height: 200px;
+}
+
+footer h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.c3 h2 {
+    margin-bottom: 20px;
+}
+
+.contato {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contato img {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.parceiros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.parceiros img {
+    width: 6rem;
+    height: 5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.informacoes1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.informacoes1 p {
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (min-width:320px) and (max-width:768px){
+    .col img{
+        height: 15vw;
+    }
+
+    .sect1 h2{
+        font-size: 5vw;
+    }
+
+    .sect2 h2{
+        font-size: 5vw;
+    }
+
+    .cform1 label {
+        font-size: 5vw;
+    }
+
+    .cform2 label {
+        font-size: 5vw;
+    }
+    
+
+}
+
+
